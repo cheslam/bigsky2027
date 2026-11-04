@@ -7,6 +7,48 @@
 @media(max-width:1100px){nav{gap:20px}.hero-copy{padding:55px 32px 35px}.hero-copy .eyebrow{white-space:normal}.hero{min-height:610px}.hero-photo{min-height:610px}.hero-meta{margin-top:35px}.activities-grid{grid-template-columns:repeat(2,1fr)}.quick-nav{gap:16px;grid-template-columns:repeat(4,1fr)}.quick-intro{display:none}.resource-layout{gap:40px}}
 @media(max-width:899px){:root{--header-height:64px}.wrap{width:calc(100% - 48px)}.header-inner{width:calc(100% - 48px);flex-wrap:wrap;gap:0;min-height:64px}.brand{font-size:1.05rem}.brand svg{width:32px;height:24px}.menu-toggle{display:inline-flex;gap:12px;align-items:center;border:0;background:none;padding:12px 0 12px 14px;font-size:.8rem}.menu-lines{width:19px;height:10px;border-top:1px solid;border-bottom:1px solid}.menu-open .menu-lines{height:1px;border-bottom:0;transform:rotate(-45deg)}nav{width:100%;padding-block:6px 20px;gap:0;flex-direction:column;align-items:stretch}nav a{padding:12px 0;border-top:1px solid var(--line);font-size:1rem}nav a:after{display:none}nav a[aria-current]{text-decoration:underline}.enhanced nav{display:none}.enhanced.menu-open nav{display:flex}.hero{grid-template-columns:1fr}.hero-copy{padding:52px 24px 36px;max-width:680px;width:100%;margin:auto}.hero h1{max-width:9em;font-size:clamp(3rem,8vw,4.7rem)}.hero-copy .eyebrow{font-size:.65rem}.hero-photo{min-height:0;height:390px}.hero-photo img{object-position:center 45%}.hero-meta{margin-top:30px;padding-top:18px}.hero-welcome{max-width:35em}.hero-actions{margin-top:26px}.hero-dates{margin-top:20px}.photo-stamp{width:88px;height:88px;right:24px;top:24px}.quick-nav{grid-template-columns:repeat(2,1fr);gap:20px 30px;padding-block:24px}.section{padding-block:68px}.section-heading{margin-bottom:30px}.day summary{grid-template-columns:110px 1fr 20px;gap:14px;padding:23px 0}.day-title{font-size:1.25rem}.day-date time{font-size:1.3rem}.day-content{padding-left:124px;padding-right:10px}.resource-layout{grid-template-columns:1fr;gap:32px}.resource-layout .section-heading{max-width:550px}.footer-top>p{font-size:1.35rem}.footer-bottom{align-items:flex-start;flex-direction:column;gap:14px}}
 @media(max-width:540px){.hero h1{font-size:3.2rem}.hero-copy{padding-top:40px}.hero-photo{height:310px}.hero-photo figcaption{font-size:.58rem;left:20px;bottom:16px}.hero-welcome{font-size:.98rem}.hero-actions{gap:16px}.hero-actions .text-link{font-size:.8rem}.hero-meta{font-size:.62rem;gap:12px}.quick-nav{font-size:.72rem;gap:16px}.travel-grid,.activities-grid{grid-template-columns:1fr}.travel-card,.activity-card{padding:26px}.section{padding-block:55px}.section-heading .eyebrow{margin-bottom:16px}.section-heading>p:last-child{font-size:.94rem}.day summary{grid-template-columns:72px 1fr 16px;gap:12px}.day-date>span{font-size:.65rem}.day-date time{font-size:1.12rem}.day-title{font-size:1.18rem}.day-summary{font-size:.78rem;line-height:1.4;margin-top:4px}.day-content{padding:0 16px 26px 12px}.timeline{margin-left:5px;padding-left:23px}.accordion-controls{margin-bottom:12px}.card-top{margin-bottom:20px}.footer-top{align-items:flex-start;flex-direction:column;gap:22px}.site-footer{padding-top:38px}.resource-list a,.resource-pending{gap:12px;grid-template-columns:20px 1fr 18px}.resource-description{font-size:.8rem}.resource-title{font-size:1.2rem}}
+/* Mobile refinement: tighten gaps while retaining type sizes and touch targets. */
+@media(max-width:899px){
+  .hero-copy{padding-block:44px 30px}
+  .hero h1{margin-top:24px}
+  .hero-dates{margin-top:16px}
+  .hero-welcome{margin-top:18px}
+  .hero-actions{margin-top:22px;gap:12px 20px}
+  .hero-actions .text-link,.travel-card .text-link,.activity-card .text-link{min-height:44px}
+  .section-heading{margin-bottom:24px}
+  .section-heading>p:last-child{margin-top:16px}
+  #itinerary .section-heading{margin-bottom:16px}
+  .accordion-controls{gap:12px;margin-bottom:12px}
+  .accordion-controls button{min-height:44px;padding:10px 6px}
+  .day summary{padding-block:20px}
+  .day-content{padding-bottom:26px}
+  .timeline li{padding-bottom:20px}
+  .activity-meta{gap:8px;margin-bottom:6px}
+  .travel-card{padding:26px}
+  .travel-card h3{margin-top:12px}
+  .travel-card>p:not(.eyebrow){margin-top:12px}
+  .travel-card .text-link{margin-top:12px}
+  .activity-card{padding:26px}
+  .card-top{margin-bottom:18px;align-items:baseline}
+  .activity-card>p{margin-top:12px}
+  .activity-card .text-link{margin-top:12px}
+  .day-overview,.activity-card,.travel-card,.resource-list a>span:nth-child(2),.resource-pending>span:nth-child(2){min-width:0;overflow-wrap:anywhere}
+  .resource-list a,.resource-pending{padding-block:20px}
+  .resource-arrow{line-height:1.6}
+  .quick-nav a{min-height:44px}
+}
+@media(max-width:540px){
+  .hero-copy{padding-block:32px 28px}
+  .hero-actions{gap:8px 16px}
+  .section-heading .eyebrow{margin-bottom:12px}
+  .accordion-controls{justify-content:flex-start;gap:8px;margin-bottom:8px}
+  .day summary{padding-block:18px;gap:10px}
+  .day-content{padding-bottom:22px}
+  .travel-grid{gap:16px}
+  .travel-card,.activity-card{padding:22px}
+  .card-top{margin-bottom:14px}
+  .resource-layout{gap:24px}
+}
 @media(max-width:360px){.wrap,.header-inner{width:calc(100% - 36px)}.hero-copy{padding-inline:18px}.hero h1{font-size:2.85rem}.hero-actions{align-items:flex-start;flex-direction:column}.quick-nav{gap:18px}.tiny-star{margin-inline:4px}.brand{gap:8px}}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
