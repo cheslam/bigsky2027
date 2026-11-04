@@ -1,0 +1,23 @@
+---
+import type {itinerary} from '../lib/content';
+interface Props { day: (typeof itinerary.days)[number]; index: number; }
+const {day,index} = Astro.props;
+const date = new Date(day.date+'T12:00:00Z');
+const weekday = new Intl.DateTimeFormat('en-US',{weekday:'long',timeZone:'UTC'}).format(date);
+const month = new Intl.DateTimeFormat('en-US',{month:'short',timeZone:'UTC'}).format(date);
+---
+<details class="day" open={index === 0}>
+  <summary>
+    <span class="day-date"><span>{weekday}</span><time datetime={day.date}>{month} {date.getUTCDate()}</time></span>
+    <span class="day-overview"><span class="day-title">{day.title}</span><span class="day-summary">{day.summary}</span></span>
+    <span class="expand-icon" aria-hidden="true"></span>
+  </summary>
+  <div class="day-content"><ol class="timeline">
+    {day.activities.map(activity=><li>
+      <div class="activity-meta">{activity.time && <time datetime={day.date+'T'+activity.time}>{activity.time}</time>}{activity.status === 'unconfirmed' && <span class="status">To be confirmed</span>}</div>
+      <h3>{activity.title}</h3><p>{activity.description}</p>
+      {activity.location && <p class="activity-location">{activity.location}</p>}
+      {activity.link && <a class="text-link" href={activity.link.url}>{activity.link.label} <span aria-hidden="true">↗</span></a>}
+    </li>)}
+  </ol></div>
+</details>

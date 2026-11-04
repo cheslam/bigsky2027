@@ -1,0 +1,14 @@
+---
+import {site} from '../lib/content';
+import Brand from './Brand.astro';
+---
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand-link" href="#home" aria-label={site.brand + ' — home'}><Brand /></a>
+    <button class="menu-toggle" aria-controls="main-navigation" aria-expanded="false" data-open-label={site.labels.menu} data-close-label={site.labels.closeMenu} hidden><span class="menu-label">{site.labels.menu}</span><span class="menu-lines" aria-hidden="true"></span></button>
+    <nav id="main-navigation" aria-label="Main navigation">
+      {site.navigation.map(item=><a href={'#'+item.id}>{item.label}</a>)}
+    </nav>
+  </div>
+</header>
+<script>import '../scripts/navigation';</script>

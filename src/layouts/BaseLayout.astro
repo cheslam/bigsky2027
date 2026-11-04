@@ -1,0 +1,25 @@
+---
+import { site } from '../lib/content';
+import '../styles/global.css';
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content={site.description} />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="theme-color" content="#203C32" />
+  <link rel="canonical" href={Astro.site} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content={site.title} />
+  <meta property="og:description" content={site.description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={Astro.site} />
+  <title>{site.title} · {site.brand}</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">{site.labels.skip}</a>
+  <slot />
+</body>
+</html>

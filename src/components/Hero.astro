@@ -1,0 +1,27 @@
+---
+import { Image } from 'astro:assets';
+import mountain from '../assets/images/mountain.jpg';
+import { site } from '../lib/content';
+---
+<section id="home" class="hero" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow">{site.location} <span class="tiny-star" aria-hidden="true">✳</span> {site.brand}</p>
+    <h1 id="hero-title">{site.title}</h1>
+    <p class="hero-dates">{site.dates}</p>
+    <p class="hero-welcome">{site.welcome}</p>
+    <div class="hero-actions"><a class="button" href="#itinerary">Explore the weekend <span aria-hidden="true">↗</span></a><a class="text-link" href="#travel">Plan your arrival <span aria-hidden="true">→</span></a></div>
+    <div class="hero-meta"><span>Five days. Good company.</span><span>One mountain weekend.</span></div>
+  </div>
+  <figure class="hero-photo">
+    <Image src={mountain} alt={site.heroAlt} widths={[480,800,1200,1600]} sizes="(min-width: 900px) 52vw, 100vw" format="webp" loading="eager" fetchpriority="high" />
+    <figcaption>{site.heroCaption}</figcaption>
+    <span class="photo-stamp" aria-hidden="true">FEB<br/><b>18—22</b><br/>2027</span>
+  </figure>
+</section>
+<div class="quick-nav wrap" aria-label="Weekend quick links">
+  <span class="quick-intro">Your weekend guide</span>
+  <a href="#itinerary">The itinerary <span aria-hidden="true">↘</span></a>
+  <a href="#skiing">Skiing & activities <span aria-hidden="true">↘</span></a>
+  <a href="#travel">Getting here <span aria-hidden="true">↘</span></a>
+  {site.partifulUrl ? <a href={site.partifulUrl}>{site.labels.partiful} <span aria-hidden="true">↗</span></a> : <span class="pending">{site.labels.partifulPending}</span>}
+</div>

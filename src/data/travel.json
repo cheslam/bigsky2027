@@ -1,0 +1,10 @@
+{
+  "heading":"Getting to Big Sky",
+  "intro":"Plan to arrive Thursday, February 18, and depart Monday, February 22. Final coordination will happen through Partiful.",
+  "items":[
+    {"title":"Fly into Bozeman","eyebrow":"BZN","description":"Bozeman Yellowstone International Airport is the arrival airport for the weekend. Check directly with your airline for flight schedules.","link":{"label":"Airport information","url":"https://bozemanairport.com/"}},
+    {"title":"From the airport","eyebrow":"Ground transportation","description":"Shuttle, rental car, and shared transfer arrangements are to be confirmed. Arrival meeting points and departure coordination will follow.","link":null},
+    {"title":"Host flights","eyebrow":"To be confirmed","description":"Arrival: flight and time to be confirmed. Departure: flight and time to be confirmed. Only host-approved public details will be added here.","link":null},
+    {"title":"Arrival & departure","eyebrow":"The last mile","description":"Check-in, checkout, luggage, and transfer details are to be confirmed. Private arrival instructions will be shared separately through Partiful.","link":null}
+  ]
+}

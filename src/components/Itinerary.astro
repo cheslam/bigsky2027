@@ -1,0 +1,11 @@
+---
+import { itinerary } from '../lib/content';
+import SectionHeading from './SectionHeading.astro';
+import Day from './ItineraryDay.astro';
+---
+<section id="itinerary" class="section wrap" aria-labelledby="itinerary-heading">
+  <SectionHeading number="01" label="Itinerary" heading={itinerary.heading} intro={itinerary.intro} id="itinerary-heading" />
+  <div class="accordion-controls" hidden><button type="button" data-expand>{itinerary.expandLabel}</button><span aria-hidden="true">/</span><button type="button" data-collapse>{itinerary.collapseLabel}</button></div>
+  <div class="days">{itinerary.days.map((day,index)=><Day day={day} index={index}/>)}</div>
+</section>
+<script>import '../scripts/itinerary';</script>

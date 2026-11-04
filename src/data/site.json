@@ -1,0 +1,14 @@
+{
+  "title": "A Weekend in Big Sky",
+  "description": "A guest guide to a birthday ski weekend in Big Sky, Montana, February 18–22, 2027.",
+  "brand": "Big Sky 2027",
+  "location": "Big Sky, Montana",
+  "dates": "February 18–22, 2027",
+  "welcome": "A few days in the mountains, good company, and a birthday worth gathering for. Here’s your guide to the weekend.",
+  "partifulUrl": null,
+  "contact": null,
+  "heroAlt": "Snow-covered alpine mountains beneath a winter sky",
+  "heroCaption": "A little mountain inspiration. Final Big Sky photograph to come.",
+  "navigation": [{"id":"itinerary","label":"Itinerary"},{"id":"travel","label":"Travel"},{"id":"skiing","label":"Skiing & activities"},{"id":"resources","label":"Resources"}],
+  "labels": {"skip":"Skip to content","menu":"Menu","closeMenu":"Close menu","partiful":"View on Partiful","partifulPending":"Partiful link coming soon","footer":"See you in the mountains.","contact":"Contact the host"}
+}

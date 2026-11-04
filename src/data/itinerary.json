@@ -1,0 +1,12 @@
+{
+  "heading": "The weekend, day by day",
+  "intro": "A little structure, plenty of mountain time. This is the working outline; times, venues, and arrangements are still to be confirmed. All times, when added, will be local Mountain Time.",
+  "expandLabel": "Expand all", "collapseLabel": "Collapse all",
+  "days": [
+    {"date":"2027-02-18","title":"Arrival","summary":"Settle in and ease into the weekend.","activities":[{"title":"Arrive in Big Sky","description":"Arrival and ground transportation guidance will be shared once confirmed.","status":"unconfirmed"}]},
+    {"date":"2027-02-19","title":"Skiing & après-ski","summary":"First turns, then a little après.","activities":[{"title":"Skiing","description":"Yellowstone Club ski access and meeting details to be confirmed.","status":"unconfirmed"},{"title":"Après-ski","description":"Location and plans to come.","status":"unconfirmed"}]},
+    {"date":"2027-02-20","title":"Choose your adventure","summary":"Backcountry, skiing, and curling.","activities":[{"title":"Optional backcountry excursion","description":"Guide, suitability, equipment, timing, and availability to be confirmed.","status":"unconfirmed"},{"title":"Skiing","description":"Ski plans to be confirmed; the backcountry excursion is optional.","status":"unconfirmed"},{"title":"Curling","description":"Venue, timing, and participation details to come.","status":"unconfirmed"}]},
+    {"date":"2027-02-21","title":"Turns & a birthday toast","summary":"A day on the snow and birthday dinner.","activities":[{"title":"Skiing","description":"Meeting details to come.","status":"unconfirmed"},{"title":"Birthday dinner","description":"Venue, timing, and reservation details to be confirmed.","status":"unconfirmed"}]},
+    {"date":"2027-02-22","title":"Until next time","summary":"Pack up, say goodbye, and head home.","activities":[{"title":"Departure","description":"Checkout and transfer arrangements to be confirmed.","status":"unconfirmed"}]}
+  ]
+}
