@@ -26,3 +26,5 @@ The supplied monograms are in src/assets/branding; Brand.astro uses cropped fore
 After edits run npm run check and npm run build, then review with npm run preview. Check mobile and desktop, all new links, and the publication checklist. Commit package-lock.json when dependencies change. Use npm audit and review upgrades before updating. Do not store unpublished private drafts in this public repository.
 
 The styled rental guide source is scripts/rental-guide/guide.html. Print it to a two-page Letter PDF with backgrounds enabled, browser headers/footers disabled, and no margins. Verify both rendered pages and shop links after updates.
+
+The lesson guide is public/guides/lesson-guide.pdf, linked from the lessons card. Its editable source is scripts/lesson-guide/guide.html. Print two Letter pages with backgrounds on and browser headers/footers off. The guide focuses on adult lessons. The host confirmed YC Snowsports private lessons are for ages 8+; the updated November 5, 2026 YC capture provides morning, afternoon, and full-day prices and times for 1-4 people, plus the full-day additional-participant fee.

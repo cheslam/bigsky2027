@@ -67,3 +67,11 @@
 .hero-photo img{object-position:50% 65%;filter:none}
 @media(max-width:899px){.brand-mark{width:auto;height:48px}.hero-photo img{object-position:50% 67%}}
 @media(max-width:540px){.hero-photo{height:350px}.hero-photo img{object-position:50% 68%}}
+/* Optional mountain days, with details guests can open at their own pace. */
+.non-skier-section{margin-top:56px;padding-top:40px;border-top:1px solid var(--forest);scroll-margin-top:calc(var(--header-height) + 24px)}
+.non-skier-section>h3{font-size:clamp(2rem,3vw,2.7rem);margin-top:14px}.non-skier-intro{color:var(--muted);margin-top:16px;max-width:66ch}
+.non-skier-options{margin-top:30px;display:grid;grid-template-columns:1fr 1fr;column-gap:36px;align-items:start}
+.non-skier-option{border-bottom:1px solid var(--line)}.non-skier-option summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:76px;padding:18px 0;cursor:pointer;list-style:none}.non-skier-option summary::-webkit-details-marker{display:none}.non-skier-option summary h4{font-family:var(--serif);font-size:1.2rem;font-weight:400;color:var(--forest)}.non-skier-option .expand-icon{flex-shrink:0}.non-skier-option[open] .expand-icon:after{transform:rotate(0)}
+.non-skier-detail{padding-bottom:22px;color:var(--muted);font-size:.9rem}.non-skier-detail .text-link{margin-top:12px;color:var(--forest)}.non-skier-note{font-size:.8rem;color:var(--muted);margin-top:26px;max-width:90ch}
+@media(max-width:899px){.non-skier-options{grid-template-columns:1fr}.non-skier-section{margin-top:36px;padding-top:30px}.non-skier-option summary{min-height:68px}}
+@media print{.non-skier-detail{display:block!important}.non-skier-option{break-inside:avoid}}

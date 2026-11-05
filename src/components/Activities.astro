@@ -6,4 +6,16 @@ import SectionHeading from './SectionHeading.astro';
 <section id="skiing" class="section wrap" aria-labelledby="skiing-heading">
 <SectionHeading number="03" label="Skiing & activities" heading={activities.heading} intro={activities.intro} id="skiing-heading" />
 <div class="activities-grid">{activities.items.map((item,index)=><article class="activity-card"><div class="card-top"><span class="card-number" aria-hidden="true">0{index+1}</span><span class="tag">{item.tag}</span></div><h3>{item.title}</h3><p>{item.description}</p>{item.link && <a class="text-link" href={publicUrl(item.link.url)}>{item.link.label} <span aria-hidden="true">↗</span></a>}</article>)}</div>
+<div id="non-skiers" class="non-skier-section" aria-labelledby="non-skier-heading">
+  <p class="eyebrow">For non-skiers</p>
+  <h3 id="non-skier-heading">{activities.nonSkiers.heading}</h3>
+  <p class="non-skier-intro">{activities.nonSkiers.intro}</p>
+  <div class="non-skier-options">
+    {activities.nonSkiers.items.map(item=><details class="non-skier-option">
+      <summary><h4>{item.title}</h4><span class="expand-icon" aria-hidden="true"></span></summary>
+      <div class="non-skier-detail"><p>{item.description}</p>{item.link && <a class="text-link" href={publicUrl(item.link.url)}>{item.link.label} <span aria-hidden="true">↗</span></a>}</div>
+    </details>)}
+  </div>
+  <p class="non-skier-note">{activities.nonSkiers.note}</p>
+</div>
 </section>

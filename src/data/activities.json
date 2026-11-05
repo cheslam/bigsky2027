@@ -10,7 +10,7 @@
     },
     {
       "title": "Ski rentals",
-      "description": "Compare four Big Sky shops and three Bozeman options in our rental guide, featuring Gallatin Alpine Sports. Plan for skiing February 19?21, and confirm pickup and return arrangements for your travel schedule. Rates in the guide are reference prices; confirm current pricing and availability with the shop.",
+      "description": "Compare four Big Sky shops and three Bozeman options in our rental guide, featuring Gallatin Alpine Sports. Plan for skiing February 19-21, and confirm pickup and return arrangements for your travel schedule. Rates in the guide are reference prices; confirm current pricing and availability with the shop.",
       "tag": "Big Sky & Bozeman",
       "link": {
         "label": "Download ski rental guide (PDF)",
@@ -19,9 +19,12 @@
     },
     {
       "title": "Optional lessons",
-      "description": "Interested in a ski lesson? Text Carter so we can gauge interest and plan lessons. Provider, availability, and booking details will follow.",
+      "description": "Interested in a ski lesson? Text Carter so we can gauge interest and coordinate plans. Browse the guide for adult lessons at Big Sky and Yellowstone Club, including YC Snowsports private lessons (ages 8+). Confirm arrangements before booking.",
       "tag": "Optional",
-      "link": null
+      "link": {
+        "label": "Download lesson guide (PDF)",
+        "url": "/guides/lesson-guide.pdf"
+      }
     },
     {
       "title": "Backcountry excursion",
@@ -37,9 +40,78 @@
     },
     {
       "title": "A slower kind of mountain day",
-      "description": "You don’t need skis to join the weekend. Non-skier options and group meeting plans will be added as arrangements are confirmed.",
+      "description": "No skis required. Shop, snowshoe, take in the summit views, or settle into a spa day. There are plenty of ways to enjoy the mountains and meet the skiers for lunch.",
       "tag": "For non-skiers",
-      "link": null
+      "link": {
+        "label": "Explore non-skier options",
+        "url": "#non-skiers"
+      }
     }
-  ]
+  ],
+  "nonSkiers": {
+    "heading": "Mountain days, your way.",
+    "intro": "There is plenty to do beyond the ski slopes. Pick what sounds good and text Carter with your interests so we can coordinate outings and lunch together.",
+    "note": "These are options to explore, not scheduled group bookings. Text Carter to coordinate YC activities, equipment, classes, and spa appointments; confirm hours, availability, costs, and reservations before making plans.",
+    "items": [
+      {
+        "title": "Shopping in Big Sky & the YC Swag Store",
+        "description": "Browse the shops in Big Sky or stop by the YC Swag Store for a little mountain souvenir.",
+        "link": null
+      },
+      {
+        "title": "Snowshoeing",
+        "description": "Two pairs of snowshoes are available to share, with more available to rent. Ousel Falls and the track on Yellowstone Club property are options for a winter outing. Coordinate gear with Carter and choose a route based on current trail and weather conditions.",
+        "link": null
+      },
+      {
+        "title": "Cross-country skiing",
+        "description": "Explore cross-country skiing on Yellowstone Club property or in Big Sky. Let Carter know if you are interested so we can coordinate equipment and trail plans.",
+        "link": null
+      },
+      {
+        "title": "Summit views at Kircliff",
+        "description": "Ride the Explorer Gondola and Lone Peak Tram to the glass observation deck at the top of Lone Peak, with no skis required. A scenic outing could pair nicely with the day the group skis Big Sky. Check scenic tickets, operating conditions, and timing before booking.",
+        "link": {
+          "label": "Explore Kircliff",
+          "url": "https://www.bigskyresort.com/kircliff"
+        }
+      },
+      {
+        "title": "YC Camphouse Gym",
+        "description": "Keep your routine going with the gym machines or join a class at the Camphouse. Coordinate class availability and any booking details with Carter.",
+        "link": null
+      },
+      {
+        "title": "Ice skating at Camphouse",
+        "description": "Trade skis for skates and spend some time on the ice at the Camphouse. Check session times and equipment arrangements with Carter.",
+        "link": null
+      },
+      {
+        "title": "Paddle tennis at Camphouse",
+        "description": "Get a game together at the Camphouse. Let Carter know if you would like to play so we can coordinate court time and equipment.",
+        "link": null
+      },
+      {
+        "title": "A spa day",
+        "description": "Unwind at the YC Spa, Spa Montage, or the spa at One&Only Moonlight Basin. Coordinate guest access, treatment availability, and reservations before booking.",
+        "link": null
+      },
+      {
+        "title": "Lunch with the skiers at Everett's 8800",
+        "description": "Join the group for lunch on a Big Sky ski day. Everett's 8800 is a host favorite on Andesite Mountain, reached by Ramcharger 8 rather than the Kircliff gondola route. Reservations are required; confirm walking-guest lift arrangements with the restaurant when coordinating lunch.",
+        "link": {
+          "label": "Explore Everett's 8800",
+          "url": "https://www.bigskyresort.com/dining/everetts-8800"
+        }
+      },
+      {
+        "title": "Meet up at One&Only",
+        "description": "Another idea for a Big Sky ski day: the skiers can head over to One&Only Moonlight Basin to meet non-skiers for lunch. Coordinate the restaurant, reservation, ski route, and non-skier transportation with Carter before heading over.",
+        "link": {
+          "label": "Explore One&Only dining",
+          "url": "https://www.oneandonlyresorts.com/moonlight-basin/dining"
+        }
+      }
+    ]
+  }
 }
