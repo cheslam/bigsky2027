@@ -2,4 +2,4 @@
 import {site} from '../lib/content';
 import Brand from './Brand.astro';
 ---
-<footer class="site-footer"><div class="wrap"><div class="footer-top"><a href="#home" class="brand-link"><Brand /></a><p>{site.labels.footer}</p></div><div class="footer-bottom"><span>{site.dates} · {site.location}</span><div>{site.partifulUrl ? <a href={site.partifulUrl}>{site.labels.partiful} ↗</a> : <span>{site.labels.partifulPending}</span>}{site.contact && <a href={site.contact.url}>{site.contact.label}</a>}<a href="#home">Back to top ↑</a></div></div></div></footer>
+<footer class="site-footer"><div class="wrap"><div class="footer-top"><a href="#home" class="brand-link"><Brand variant="ivory" /></a><p>{site.labels.footer}</p></div><div class="footer-bottom"><span>{site.dates} · {site.location}</span><div>{site.partifulUrl ? <a href={site.partifulUrl}>{site.labels.partiful} ↗</a> : <span>{site.labels.partifulPending}</span>}{site.contact && <a href={site.contact.url}>{site.contact.label}</a>}<a href="#home">Back to top ↑</a></div></div></div></footer>

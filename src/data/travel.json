@@ -1,10 +1,63 @@
 {
-  "heading":"Getting to Big Sky",
-  "intro":"Plan to arrive Thursday, February 18, and depart Monday, February 22. Final coordination will happen through Partiful.",
-  "items":[
-    {"title":"Fly into Bozeman","eyebrow":"BZN","description":"Bozeman Yellowstone International Airport is the arrival airport for the weekend. Check directly with your airline for flight schedules.","link":{"label":"Airport information","url":"https://bozemanairport.com/"}},
-    {"title":"From the airport","eyebrow":"Ground transportation","description":"Shuttle, rental car, and shared transfer arrangements are to be confirmed. Arrival meeting points and departure coordination will follow.","link":null},
-    {"title":"Host flights","eyebrow":"To be confirmed","description":"Arrival: flight and time to be confirmed. Departure: flight and time to be confirmed. Only host-approved public details will be added here.","link":null},
-    {"title":"Arrival & departure","eyebrow":"The last mile","description":"Check-in, checkout, luggage, and transfer details are to be confirmed. Private arrival instructions will be shared separately through Partiful.","link":null}
+  "heading": "Getting to Big Sky",
+  "intro": "Plan to arrive Thursday, February 18, and depart Monday, February 22. Please try to coordinate arrival and departure times with the group so we can share the drive between Bozeman and the house.",
+  "items": [
+    {
+      "title": "Fly into Bozeman",
+      "eyebrow": "BZN",
+      "description": "Bozeman Yellowstone International Airport is the arrival airport for the weekend. Check directly with your airline for flight schedules.",
+      "link": {
+        "label": "Airport information",
+        "url": "https://bozemanairport.com/"
+      }
+    },
+    {
+      "title": "Carter's flights",
+      "eyebrow": "A reference for coordinating travel",
+      "description": "American Airlines. All times are local to each airport. Similar arrival and departure times will help us coordinate shared rides.",
+      "link": null,
+      "flights": [
+        {
+          "label": "Heading to Montana",
+          "date": "Thursday, February 18",
+          "from": "DFW",
+          "to": "BZN",
+          "departure": "12:00 p.m.",
+          "arrival": "2:23 p.m."
+        },
+        {
+          "label": "Heading home",
+          "date": "Monday, February 22",
+          "from": "BZN",
+          "to": "DFW",
+          "departure": "3:00 p.m.",
+          "arrival": "7:00 p.m."
+        }
+      ]
+    },
+    {
+      "eyebrow": "About 1.5 hours from Bozeman",
+      "title": "Coordinate your travel",
+      "description": "The drive from Bozeman to the house takes approximately 1.5 hours. Text Carter your flight plans and try to coordinate arrival and departure times with others so we can share rides. Allow additional time for winter conditions, rental returns, and airport check-in.",
+      "link": null
+    },
+    {
+      "eyebrow": "Details to come",
+      "title": "Rental cars",
+      "description": "Rental cars and shared rides will be coordinated once flight plans come together. Driver, vehicle, and passenger arrangements will follow.",
+      "link": null
+    },
+    {
+      "eyebrow": "Lodging is free",
+      "title": "Stay at the house",
+      "description": "We will be staying together at a house at Yellowstone Club. Lodging is provided at no cost to guests. The address and private arrival instructions will be shared in Partiful.",
+      "link": null
+    },
+    {
+      "title": "Arriving Wednesday?",
+      "eyebrow": "February 17 / A night in Bozeman",
+      "description": "Some guests are arriving Wednesday, February 17, and spending the night in Bozeman. You are welcome to do the same! Please arrange your own lodging for Wednesday night; our stay at the house begins Thursday.",
+      "link": null
+    }
   ]
 }

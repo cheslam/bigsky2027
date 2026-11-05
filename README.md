@@ -22,6 +22,6 @@ Set ASTRO_TELEMETRY_DISABLED=1 in your shell to disable Astro development teleme
 - [Asset licenses](docs/asset-licenses.md)
 
 ## Publication status
-Local implementation only. The remote repository and GitHub Pages have not been created or configured. Deployment is manual-only, with no automatic publication on push. Review and approve publication first.
+GitHub Pages deployment for https://bigsky2027.carterheslam.com/ is prepared but has not been published. Astro serves at the domain root. Cloudflare proxying is intentional; GitHub Pages DNS check passed according to the host. Live HTTPS verification follows deployment. Origin is configured as https://github.com/cheslam/bigsky2027.git. After explicit deployment approval, pushes to main will automatically validate, build, and deploy using GitHub Actions. See [publishing steps and update workflow](docs/deployment.md) and the [current audit](docs/pages-audit.md).
 
 This project is independent of Jarvis. Do not add homelab configuration, credentials, private guest information, or private logistics. noindex is included to discourage indexing, but does not provide access control.

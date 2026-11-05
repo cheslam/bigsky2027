@@ -1,6 +1,8 @@
 ---
+import { publicUrl } from '../lib/urls';
 import { site } from '../lib/content';
 import '../styles/global.css';
+const canonical = new URL(publicUrl('/'), Astro.site);
 ---
 <!doctype html>
 <html lang="en">
@@ -10,12 +12,12 @@ import '../styles/global.css';
   <meta name="description" content={site.description} />
   <meta name="robots" content="noindex, nofollow" />
   <meta name="theme-color" content="#203C32" />
-  <link rel="canonical" href={Astro.site} />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="canonical" href={canonical} />
+  <link rel="icon" href={publicUrl('/favicon.png')} type="image/png" />
   <meta property="og:title" content={site.title} />
   <meta property="og:description" content={site.description} />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content={Astro.site} />
+  <meta property="og:url" content={canonical} />
   <title>{site.title} · {site.brand}</title>
 </head>
 <body>

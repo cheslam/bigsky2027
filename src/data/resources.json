@@ -1,11 +1,36 @@
 {
-  "heading":"Good things to have handy",
-  "intro":"The practical little things, all in one place.",
-  "items":[
-    {"title":"Packing list","description":"A separate checklist for the weekend.","url":null,"pending":"Link coming soon"},
-    {"title":"Mountain weather","description":"Check the Big Sky forecast before you travel.","url":"https://forecast.weather.gov/MapClick.php?lat=45.2812&lon=-111.3226","pending":null},
-    {"title":"Ski rentals","description":"Explore Gallatin Alpine Sports.","url":"https://www.gallatinalpinesports.com/ski-rentals","pending":null},
-    {"title":"Useful documents","description":"Public guest documents will be linked here when ready.","url":null,"pending":"Coming soon"},
-    {"title":"Guest guidance","description":"Additional weekend information and practical notes.","url":null,"pending":"Coming soon"}
+  "heading": "Good things to have handy",
+  "intro": "The practical little things, all in one place.",
+  "items": [
+    {
+      "title": "Packing list",
+      "description": "A separate checklist for the weekend.",
+      "url": null,
+      "pending": "Link coming soon"
+    },
+    {
+      "title": "Mountain weather",
+      "description": "Check the Big Sky forecast before you travel.",
+      "url": "https://forecast.weather.gov/MapClick.php?lat=45.2812&lon=-111.3226",
+      "pending": null
+    },
+    {
+      "title": "Ski rental guide",
+      "description": "Seven Big Sky and Bozeman rental options, with reference rates and shop links. Download the PDF and confirm current rates before booking.",
+      "url": "/guides/ski-rental-options.pdf",
+      "pending": null
+    },
+    {
+      "title": "Useful documents",
+      "description": "Public guest documents will be linked here when ready.",
+      "url": null,
+      "pending": "Coming soon"
+    },
+    {
+      "title": "Guest guidance",
+      "description": "Additional weekend information and practical notes.",
+      "url": null,
+      "pending": "Coming soon"
+    }
   ]
 }

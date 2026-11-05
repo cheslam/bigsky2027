@@ -1,12 +1,68 @@
 {
   "heading": "The weekend, day by day",
-  "intro": "A little structure, plenty of mountain time. This is the working outline; times, venues, and arrangements are still to be confirmed. All times, when added, will be local Mountain Time.",
-  "expandLabel": "Expand all", "collapseLabel": "Collapse all",
+  "intro": "A little structure, plenty of mountain time. Here is the general plan for the weekend; details may change as plans come together.",
+  "expandLabel": "Expand all",
+  "collapseLabel": "Collapse all",
   "days": [
-    {"date":"2027-02-18","title":"Arrival","summary":"Settle in and ease into the weekend.","activities":[{"title":"Arrive in Big Sky","description":"Arrival and ground transportation guidance will be shared once confirmed.","status":"unconfirmed"}]},
-    {"date":"2027-02-19","title":"Skiing & après-ski","summary":"First turns, then a little après.","activities":[{"title":"Skiing","description":"Yellowstone Club ski access and meeting details to be confirmed.","status":"unconfirmed"},{"title":"Après-ski","description":"Location and plans to come.","status":"unconfirmed"}]},
-    {"date":"2027-02-20","title":"Choose your adventure","summary":"Backcountry, skiing, and curling.","activities":[{"title":"Optional backcountry excursion","description":"Guide, suitability, equipment, timing, and availability to be confirmed.","status":"unconfirmed"},{"title":"Skiing","description":"Ski plans to be confirmed; the backcountry excursion is optional.","status":"unconfirmed"},{"title":"Curling","description":"Venue, timing, and participation details to come.","status":"unconfirmed"}]},
-    {"date":"2027-02-21","title":"Turns & a birthday toast","summary":"A day on the snow and birthday dinner.","activities":[{"title":"Skiing","description":"Meeting details to come.","status":"unconfirmed"},{"title":"Birthday dinner","description":"Venue, timing, and reservation details to be confirmed.","status":"unconfirmed"}]},
-    {"date":"2027-02-22","title":"Until next time","summary":"Pack up, say goodbye, and head home.","activities":[{"title":"Departure","description":"Checkout and transfer arrangements to be confirmed.","status":"unconfirmed"}]}
+    {
+      "date": "2027-02-18",
+      "title": "Hello, Montana",
+      "summary": "Land, stock up, and settle into mountain life.",
+      "activities": [
+        {
+          "title": "The plan",
+          "description": "Arrive in Bozeman, pick up rental gear, and help with grocery and other arrival-day errands before heading to the house for pizza and an easy evening together.",
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-19",
+      "title": "First tracks",
+      "summary": "A day on the slopes, an evening together.",
+      "activities": [
+        {
+          "title": "The plan",
+          "description": "Spend the day skiing, then gather for après-ski and hot tub time at the house before heading out for dinner and drinks.",
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-20",
+      "title": "Mountain time",
+      "summary": "More turns, a little adventure, and curling.",
+      "activities": [
+        {
+          "title": "The plan",
+          "description": "Enjoy another ski day, with a possible optional morning backcountry outing. Regroup for après-ski curling, followed by dinner at the house.",
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-21",
+      "title": "Birthday in the mountains",
+      "summary": "Golden-hour memories and a dinner worth gathering for.",
+      "activities": [
+        {
+          "title": "The plan",
+          "description": "Spend the day skiing, with lunch on the mountain and a flexible afternoon for more turns or hot tub time. Gather at the house for golden-hour photos and a birthday steak dinner.",
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-22",
+      "title": "One last coffee",
+      "summary": "A slow morning before the journey home.",
+      "activities": [
+        {
+          "title": "The plan",
+          "description": "Enjoy breakfast, pack up, and head back to Bozeman for rental returns and flights home.",
+          "status": "unconfirmed"
+        }
+      ]
+    }
   ]
 }

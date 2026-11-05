@@ -1,12 +1,45 @@
 {
-  "heading":"On the snow. Off the clock.",
-  "intro":"Ski days are at the heart of the weekend, with room to find your own pace. Participation and booking details are still being worked out.",
-  "items":[
-    {"title":"Yellowstone Club skiing","description":"Guest ski access, lift arrangements, terrain guidance, and meeting points are to be confirmed. Please wait for confirmed access details before making related bookings.","tag":"Details to come","link":null},
-    {"title":"Ski rentals","description":"Gallatin Alpine Sports is the initial rental option to explore. Weekend arrangements, fitting logistics, pricing, and booking guidance are not yet confirmed.","tag":"Plan ahead","link":{"label":"Gallatin Alpine Sports","url":"https://www.gallatinalpinesports.com/ski-rentals"}},
-    {"title":"Optional lessons","description":"Interested in a lesson? Provider, availability, ability groups, and booking details will be shared when confirmed.","tag":"Optional","link":null},
-    {"title":"Backcountry excursion","description":"A possible Saturday outing. Guide, conditions, ability requirements, equipment, cost, and booking arrangements are to be confirmed.","tag":"Optional · unconfirmed","link":null},
-    {"title":"Curling","description":"A Saturday activity in the working itinerary. Venue, time, equipment, and participation details are to be confirmed.","tag":"Unconfirmed","link":null},
-    {"title":"A slower kind of mountain day","description":"You don’t need skis to join the weekend. Non-skier options and group meeting plans will be added as arrangements are confirmed.","tag":"For non-skiers","link":null}
+  "heading": "On the snow. Off the clock.",
+  "intro": "Ski days are at the heart of the weekend, with room to find your own pace. Participation and booking details are still being worked out.",
+  "items": [
+    {
+      "title": "Skiing at Yellowstone Club & Big Sky",
+      "description": "We plan to ski a mix of Yellowstone Club and Big Sky Friday through Sunday. We may need to purchase passes for Big Sky; details will follow. Have an Ikon pass? Text Carter so we can plan accordingly.",
+      "tag": "Details to come",
+      "link": null
+    },
+    {
+      "title": "Ski rentals",
+      "description": "Compare four Big Sky shops and three Bozeman options in our rental guide, featuring Gallatin Alpine Sports. Plan for skiing February 19?21, and confirm pickup and return arrangements for your travel schedule. Rates in the guide are reference prices; confirm current pricing and availability with the shop.",
+      "tag": "Big Sky & Bozeman",
+      "link": {
+        "label": "Download ski rental guide (PDF)",
+        "url": "/guides/ski-rental-options.pdf"
+      }
+    },
+    {
+      "title": "Optional lessons",
+      "description": "Interested in a ski lesson? Text Carter so we can gauge interest and plan lessons. Provider, availability, and booking details will follow.",
+      "tag": "Optional",
+      "link": null
+    },
+    {
+      "title": "Backcountry excursion",
+      "description": "A possible Saturday outing. Guide, conditions, ability requirements, equipment, cost, and booking arrangements are to be confirmed.",
+      "tag": "Optional · unconfirmed",
+      "link": null
+    },
+    {
+      "title": "Curling",
+      "description": "A Saturday activity in the working itinerary. Venue, time, equipment, and participation details are to be confirmed.",
+      "tag": "Unconfirmed",
+      "link": null
+    },
+    {
+      "title": "A slower kind of mountain day",
+      "description": "You don’t need skis to join the weekend. Non-skier options and group meeting plans will be added as arrangements are confirmed.",
+      "tag": "For non-skiers",
+      "link": null
+    }
   ]
 }

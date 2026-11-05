@@ -1,8 +1,9 @@
 ---
+import { publicUrl } from '../lib/urls';
 import {resources} from '../lib/content';
 import SectionHeading from './SectionHeading.astro';
 ---
 <section id="resources" class="resources-section" aria-labelledby="resources-heading"><div class="wrap section resource-layout">
 <SectionHeading number="04" label="Resources" heading={resources.heading} intro={resources.intro} id="resources-heading" />
-<ul class="resource-list">{resources.items.map((item,index)=><li>{item.url ? <a href={item.url}><span class="resource-index" aria-hidden="true">0{index+1}</span><span><span class="resource-title">{item.title}</span><span class="resource-description">{item.description}</span></span><span class="resource-arrow" aria-hidden="true">↗</span></a> : <div class="resource-pending"><span class="resource-index" aria-hidden="true">0{index+1}</span><span><span class="resource-title">{item.title}</span><span class="resource-description">{item.description}</span><span class="pending">{item.pending}</span></span><span class="resource-arrow" aria-hidden="true">—</span></div>}</li>)}</ul>
+<ul class="resource-list">{resources.items.map((item,index)=><li>{item.url ? <a href={publicUrl(item.url)}><span class="resource-index" aria-hidden="true">0{index+1}</span><span><span class="resource-title">{item.title}</span><span class="resource-description">{item.description}</span></span><span class="resource-arrow" aria-hidden="true">↗</span></a> : <div class="resource-pending"><span class="resource-index" aria-hidden="true">0{index+1}</span><span><span class="resource-title">{item.title}</span><span class="resource-description">{item.description}</span><span class="pending">{item.pending}</span></span><span class="resource-arrow" aria-hidden="true">—</span></div>}</li>)}</ul>
 </div></section>

@@ -1,6 +1,8 @@
-name: Deploy approved site
-# Manual only. Do not run before reviewing docs/publication-checklist.md.
+name: Deploy GitHub Pages
+# Pushing main publishes. Do not push until deployment is explicitly approved.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -13,6 +15,7 @@ env:
   ASTRO_TELEMETRY_DISABLED: '1'
 jobs:
   build:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -22,9 +25,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
-      - run: npm run build
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - run: npm run build
+      - run: npm run verify:pages
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
   deploy:

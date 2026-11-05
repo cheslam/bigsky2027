@@ -55,3 +55,15 @@
 @media print{.site-header,.quick-nav,.accordion-controls,.hero-photo,.hero-actions,.footer-bottom{display:none!important}.hero{display:block;min-height:0}.hero-copy{padding:20px 0}.wrap{width:100%}.section{padding-block:24px}.day-content{display:block!important}.site-footer{background:white;color:black}.travel-section,.resources-section{background:white}a{color:black}.day{break-inside:avoid}}
 
 .timeline h3{font-family:var(--sans);font-size:1.1rem;font-weight:600;line-height:1.35;color:var(--charcoal)}.skip-link:hover{color:var(--ivory)}.hero-photo figcaption{background:#203c32e6;padding:6px 10px;width:fit-content}.quick-nav a{min-height:24px;align-items:center}
+/* Flight details stay within the travel card, with each leg easy to scan. */
+.flight-card{background:var(--ivory);border-top:3px solid var(--forest)}
+.flight-list{margin-top:22px}.flight-leg+.flight-leg{border-top:1px solid var(--line);padding-top:18px;margin-top:18px}
+.flight-label{font-size:.72rem;font-weight:600;color:var(--forest)}.flight-label>span{display:block;font-weight:400;color:var(--muted);margin-top:2px}
+.flight-route{display:grid;grid-template-columns:1fr 32px 1fr;align-items:center;gap:12px;margin-top:10px;color:var(--forest)}
+.flight-route>div{display:flex;flex-direction:column}.flight-route>div:last-child{text-align:right}.flight-route strong{font-family:var(--serif);font-size:2rem;font-weight:400;letter-spacing:.04em;line-height:1.2}.flight-route>div>span{font-size:1rem;font-weight:600;margin-top:4px}.flight-arrow{font-size:1.5rem;text-align:center;color:var(--muted)}
+/* Host-supplied CH monograms and living-room photograph. */
+.brand-link{display:inline-flex;align-items:center}.header-inner{padding-block:6px}.brand-mark{display:block;width:auto;height:64px;object-fit:contain;flex-shrink:0}
+.brand-forest .brand-mark{mix-blend-mode:normal}.brand-ivory .brand-mark{mix-blend-mode:lighten}
+.hero-photo img{object-position:50% 65%;filter:none}
+@media(max-width:899px){.brand-mark{width:auto;height:48px}.hero-photo img{object-position:50% 67%}}
+@media(max-width:540px){.hero-photo{height:350px}.hero-photo img{object-position:50% 68%}}
