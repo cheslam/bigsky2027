@@ -19,11 +19,11 @@
     {
       "date": "2027-02-19",
       "title": "First tracks",
-      "summary": "A day on the slopes, an evening together.",
+      "summary": "Ski Yellowstone Club, then spend the evening together.",
       "activities": [
         {
           "title": "The plan",
-          "description": "Spend the day skiing, then gather for après-ski and hot tub time at the house before heading out for dinner and drinks.",
+          "description": "Ski at Yellowstone Club, then gather for après-ski and hot tub time at the house before heading out for dinner and drinks.",
           "status": "unconfirmed"
         }
       ]
@@ -31,23 +31,43 @@
     {
       "date": "2027-02-20",
       "title": "Mountain time",
-      "summary": "More turns, a little adventure, and curling.",
+      "summary": "Ski Yellowstone Club, then head to Église and curling.",
       "activities": [
         {
           "title": "The plan",
-          "description": "Enjoy another ski day, with a possible optional morning backcountry outing. Regroup for après-ski curling, followed by dinner at the house.",
+          "description": "Ski at Yellowstone Club, with an optional morning backcountry outing. Dinner at the house follows curling.",
           "status": "unconfirmed"
+        },
+        {
+          "title": "Lunch on the mountain",
+          "description": "Plan to stop at the on-mountain pizza hut for lunch.",
+          "status": "unconfirmed"
+        },
+        {
+          "title": "Après All Day at Église",
+          "description": "Aim to arrive around 2–3 p.m.",
+          "status": "unconfirmed"
+        },
+        {
+          "title": "Après-ski curling",
+          "description": "Booked from 5–7 p.m.",
+          "status": "confirmed"
         }
       ]
     },
     {
       "date": "2027-02-21",
       "title": "Birthday in the mountains",
-      "summary": "Golden-hour memories and a dinner worth gathering for.",
+      "summary": "Ski Big Sky Resort and celebrate with a birthday lunch on the mountain.",
       "activities": [
         {
           "title": "The plan",
-          "description": "Spend the day skiing, with lunch on the mountain and a flexible afternoon for more turns or hot tub time. Gather at the house for golden-hour photos and a birthday steak dinner.",
+          "description": "Ski at Big Sky Resort, with a flexible afternoon for more turns or hot tub time. Gather at the house for golden-hour photos and a birthday steak dinner.",
+          "status": "unconfirmed"
+        },
+        {
+          "title": "Birthday lunch on the mountain",
+          "description": "Restaurant TBD.",
           "status": "unconfirmed"
         }
       ]
