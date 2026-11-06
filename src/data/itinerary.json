@@ -10,21 +10,46 @@
       "summary": "Land, stock up, and settle into mountain life.",
       "activities": [
         {
-          "title": "The plan",
-          "description": "Arrive in Bozeman, pick up rental gear, and help with grocery and other arrival-day errands before heading to the house for pizza and an easy evening together.",
-          "status": "unconfirmed"
+          "title": "Arrive in Bozeman",
+          "description": "Pick up rental cars and collect bags as flights arrive.",
+          "status": "confirmed"
+        },
+        {
+          "title": "Pick up gear and supplies",
+          "description": "Pick up rental gear and help with groceries and other arrival-day errands.",
+          "status": "confirmed"
+        },
+        {
+          "title": "Pizza at the house",
+          "description": "Head to the Yellowstone Club house for pizza and an easy evening together.",
+          "status": "confirmed"
         }
       ]
     },
     {
       "date": "2027-02-19",
       "title": "First tracks",
-      "summary": "Ski Yellowstone Club, then spend the evening together.",
+      "summary": "Ski Yellowstone Club, then gather for hot tub happy hour, dinner at Baba, and drinks at The Boot Room.",
       "activities": [
         {
-          "title": "The plan",
-          "description": "Ski at Yellowstone Club, then gather for après-ski and hot tub time at the house before heading out for dinner and drinks.",
-          "status": "unconfirmed"
+          "title": "Ski at Yellowstone Club",
+          "description": "Spend the day skiing at YC. Friday is the suggested day for anyone interested in an optional lesson.",
+          "status": "confirmed"
+        },
+        {
+          "title": "Après-ski hot tub happy hour",
+          "description": "Head back to the house after skiing for the hot tub, a mule bar, glühwein, and snacks.",
+          "status": "confirmed"
+        },
+        {
+          "title": "Dinner at Baba",
+          "description": "Booked at the YC base in Warren Miller Lodge, with one table for 8 and one for 7. Seating time 7pm.",
+          "status": "confirmed"
+        },
+        {
+          "title": "Drinks at The Boot Room",
+          "description": "After dinner, plan to head to The Boot Room (bar) in Warren Miller Lodge.",
+          "status": "confirmed"
         }
       ]
     },
@@ -34,8 +59,13 @@
       "summary": "Ski Yellowstone Club, then head to Église and curling.",
       "activities": [
         {
-          "title": "The plan",
-          "description": "Ski at Yellowstone Club, with an optional morning backcountry outing. Dinner at the house follows curling.",
+          "title": "Ski at Yellowstone Club",
+          "description": "Spend the day skiing at YC.",
+          "status": "confirmed"
+        },
+        {
+          "title": "Optional morning backcountry outing",
+          "description": "Join the backcountry group if the outing goes ahead.",
           "status": "unconfirmed"
         },
         {
@@ -52,6 +82,11 @@
           "title": "Après-ski curling",
           "description": "Booked from 5–7 p.m.",
           "status": "confirmed"
+        },
+        {
+          "title": "Dinner at the house",
+          "description": "Plan to head back to the house for dinner after curling.",
+          "status": "unconfirmed"
         }
       ]
     },
@@ -61,14 +96,29 @@
       "summary": "Ski Big Sky Resort and celebrate with a birthday lunch on the mountain.",
       "activities": [
         {
-          "title": "The plan",
-          "description": "Ski at Big Sky Resort, with a flexible afternoon for more turns or hot tub time. Gather at the house for golden-hour photos and a birthday steak dinner.",
-          "status": "unconfirmed"
+          "title": "Ski at Big Sky Resort",
+          "description": "Start the day on the slopes at Big Sky.",
+          "status": "confirmed"
         },
         {
           "title": "Birthday lunch on the mountain",
           "description": "Restaurant TBD.",
           "status": "unconfirmed"
+        },
+        {
+          "title": "More skiing or hot tub time",
+          "description": "Keep skiing after lunch or head back to the house for the hot tub.",
+          "status": "confirmed"
+        },
+        {
+          "title": "Golden-hour photos",
+          "description": "Gather at the house for group photos.",
+          "status": "confirmed"
+        },
+        {
+          "title": "Birthday steak dinner",
+          "description": "Celebrate together over steak dinner at the house.",
+          "status": "confirmed"
         }
       ]
     },
@@ -78,9 +128,19 @@
       "summary": "A slow morning before the journey home.",
       "activities": [
         {
-          "title": "The plan",
-          "description": "Enjoy breakfast, pack up, and head back to Bozeman for rental returns and flights home.",
+          "title": "Breakfast and pack up",
+          "description": "Have breakfast at the house and pack up for departure.",
+          "status": "confirmed"
+        },
+        {
+          "title": "Drive to Bozeman and return rentals",
+          "description": "Coordinate rides around flight times and return rental gear and cars.",
           "status": "unconfirmed"
+        },
+        {
+          "title": "Flights home :(",
+          "description": "Head to the airport for your flight.",
+          "status": "confirmed"
         }
       ]
     }
